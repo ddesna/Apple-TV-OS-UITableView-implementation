@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		335DD39E1BC7074600A3CC6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335DD39D1BC7074600A3CC6A /* main.m */; };
+		335DD3A11BC7074600A3CC6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335DD3A01BC7074600A3CC6A /* AppDelegate.m */; };
+		335DD3A41BC7074600A3CC6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335DD3A31BC7074600A3CC6A /* ViewController.m */; };
+		335DD3A71BC7074600A3CC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335DD3A51BC7074600A3CC6A /* Main.storyboard */; };
+		335DD3A91BC7074600A3CC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335DD3A81BC7074600A3CC6A /* Assets.xcassets */; };
+		335DD3B41BC7074700A3CC6A /* MyTvOsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 335DD3B31BC7074700A3CC6A /* MyTvOsAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335DD3B01BC7074700A3CC6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 335DD3911BC7074600A3CC6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 335DD3981BC7074600A3CC6A;
+			remoteInfo = MyTvOsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		335DD3991BC7074600A3CC6A /* MyTvOsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTvOsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335DD39D1BC7074600A3CC6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		335DD39F1BC7074600A3CC6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		335DD3A01BC7074600A3CC6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		335DD3A21BC7074600A3CC6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		335DD3A31BC7074600A3CC6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		335DD3A61BC7074600A3CC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335DD3A81BC7074600A3CC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335DD3AA1BC7074600A3CC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335DD3AF1BC7074700A3CC6A /* MyTvOsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTvOsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		335DD3B31BC7074700A3CC6A /* MyTvOsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTvOsAppTests.m; sourceTree = "<group>"; };
+		335DD3B51BC7074700A3CC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		335DD3961BC7074600A3CC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335DD3AC1BC7074700A3CC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335DD3901BC7074600A3CC6A = {
+			isa = PBXGroup;
+			children = (
+				335DD39B1BC7074600A3CC6A /* MyTvOsApp */,
+				335DD3B21BC7074700A3CC6A /* MyTvOsAppTests */,
+				335DD39A1BC7074600A3CC6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335DD39A1BC7074600A3CC6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335DD3991BC7074600A3CC6A /* MyTvOsApp.app */,
+				335DD3AF1BC7074700A3CC6A /* MyTvOsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335DD39B1BC7074600A3CC6A /* MyTvOsApp */ = {
+			isa = PBXGroup;
+			children = (
+				335DD39F1BC7074600A3CC6A /* AppDelegate.h */,
+				335DD3A01BC7074600A3CC6A /* AppDelegate.m */,
+				335DD3A21BC7074600A3CC6A /* ViewController.h */,
+				335DD3A31BC7074600A3CC6A /* ViewController.m */,
+				335DD3A51BC7074600A3CC6A /* Main.storyboard */,
+				335DD3A81BC7074600A3CC6A /* Assets.xcassets */,
+				335DD3AA1BC7074600A3CC6A /* Info.plist */,
+				335DD39C1BC7074600A3CC6A /* Supporting Files */,
+			);
+			path = MyTvOsApp;
+			sourceTree = "<group>";
+		};
+		335DD39C1BC7074600A3CC6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335DD39D1BC7074600A3CC6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		335DD3B21BC7074700A3CC6A /* MyTvOsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				335DD3B31BC7074700A3CC6A /* MyTvOsAppTests.m */,
+				335DD3B51BC7074700A3CC6A /* Info.plist */,
+			);
+			path = MyTvOsAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335DD3981BC7074600A3CC6A /* MyTvOsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335DD3B81BC7074700A3CC6A /* Build configuration list for PBXNativeTarget "MyTvOsApp" */;
+			buildPhases = (
+				335DD3951BC7074600A3CC6A /* Sources */,
+				335DD3961BC7074600A3CC6A /* Frameworks */,
+				335DD3971BC7074600A3CC6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTvOsApp;
+			productName = MyTvOsApp;
+			productReference = 335DD3991BC7074600A3CC6A /* MyTvOsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		335DD3AE1BC7074700A3CC6A /* MyTvOsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335DD3BB1BC7074700A3CC6A /* Build configuration list for PBXNativeTarget "MyTvOsAppTests" */;
+			buildPhases = (
+				335DD3AB1BC7074700A3CC6A /* Sources */,
+				335DD3AC1BC7074700A3CC6A /* Frameworks */,
+				335DD3AD1BC7074700A3CC6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				335DD3B11BC7074700A3CC6A /* PBXTargetDependency */,
+			);
+			name = MyTvOsAppTests;
+			productName = MyTvOsAppTests;
+			productReference = 335DD3AF1BC7074700A3CC6A /* MyTvOsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		335DD3911BC7074600A3CC6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Daniil Desna";
+				TargetAttributes = {
+					335DD3981BC7074600A3CC6A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					335DD3AE1BC7074700A3CC6A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 335DD3981BC7074600A3CC6A;
+					};
+				};
+			};
+			buildConfigurationList = 335DD3941BC7074600A3CC6A /* Build configuration list for PBXProject "MyTvOsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335DD3901BC7074600A3CC6A;
+			productRefGroup = 335DD39A1BC7074600A3CC6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335DD3981BC7074600A3CC6A /* MyTvOsApp */,
+				335DD3AE1BC7074700A3CC6A /* MyTvOsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335DD3971BC7074600A3CC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335DD3A91BC7074600A3CC6A /* Assets.xcassets in Resources */,
+				335DD3A71BC7074600A3CC6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335DD3AD1BC7074700A3CC6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		335DD3951BC7074600A3CC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335DD3A41BC7074600A3CC6A /* ViewController.m in Sources */,
+				335DD3A11BC7074600A3CC6A /* AppDelegate.m in Sources */,
+				335DD39E1BC7074600A3CC6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		335DD3AB1BC7074700A3CC6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335DD3B41BC7074700A3CC6A /* MyTvOsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		335DD3B11BC7074700A3CC6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 335DD3981BC7074600A3CC6A /* MyTvOsApp */;
+			targetProxy = 335DD3B01BC7074700A3CC6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		335DD3A51BC7074600A3CC6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				335DD3A61BC7074600A3CC6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335DD3B61BC7074700A3CC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		335DD3B71BC7074700A3CC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335DD3B91BC7074700A3CC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MyTvOsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dde.MyTvOsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		335DD3BA1BC7074700A3CC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MyTvOsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dde.MyTvOsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		335DD3BC1BC7074700A3CC6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyTvOsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddesna.MyTvOsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTvOsApp.app/MyTvOsApp";
+			};
+			name = Debug;
+		};
+		335DD3BD1BC7074700A3CC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyTvOsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddesna.MyTvOsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTvOsApp.app/MyTvOsApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		335DD3941BC7074600A3CC6A /* Build configuration list for PBXProject "MyTvOsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335DD3B61BC7074700A3CC6A /* Debug */,
+				335DD3B71BC7074700A3CC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335DD3B81BC7074700A3CC6A /* Build configuration list for PBXNativeTarget "MyTvOsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335DD3B91BC7074700A3CC6A /* Debug */,
+				335DD3BA1BC7074700A3CC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335DD3BB1BC7074700A3CC6A /* Build configuration list for PBXNativeTarget "MyTvOsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335DD3BC1BC7074700A3CC6A /* Debug */,
+				335DD3BD1BC7074700A3CC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 335DD3911BC7074600A3CC6A /* Project object */;
+}
